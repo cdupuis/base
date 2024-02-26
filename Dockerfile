@@ -1,3 +1,3 @@
 FROM alpine:3.19
 
-RUN apk get --no-cache nodejs
+RUN apk add --no-cache nodejs
